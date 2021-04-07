@@ -1,0 +1,8 @@
+body, h1, h2, h3, a, button {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}

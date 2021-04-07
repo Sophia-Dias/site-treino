@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    background-color: #242424;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.icon {
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    color: #FFF;
+    line-height: 50px;
+}
+
+.link {
+    color: #FFF;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: "New Tegomin", serif;
+    margin-right: 20px;
+}
+
+.button {
+    padding: 10px 25px;
+    font-size: 22px;
+    font-family: "New Tegomin", serif;
+    background-color: #FFF;
+    border: none;
+    border-radius: 30px;
+    transition: transform 200ms cubic-bezier(0,-1.01,1,1);
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
